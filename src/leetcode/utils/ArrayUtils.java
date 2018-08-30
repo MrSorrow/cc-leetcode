@@ -18,4 +18,10 @@ public class ArrayUtils {
         }
         System.out.println("]");
     }
+
+    public static void print2DArray(int[][] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            printArray(nums[i]);
+        }
+    }
 }
