@@ -8,14 +8,14 @@ package leetcode.simple.array;
 public class BestTimeToBuyAndSellStock {
 
 	public static void main(String[] args) {
-		
+
 		int[] prices = {7,1,5,3,6,4};
 		System.out.println(new BestTimeToBuyAndSellStock().maxProfitDp(prices , 0));
 		System.out.println(new BestTimeToBuyAndSellStock().maxProfit(prices));
 	}
 
 	/**
-	 * 个人解法：（dp or 分治） 如果在第一天买入，则寻找最大差价；如果没有第一天买，则递归 
+	 * 个人解法：（dp or 分治） 如果在第一天买入，则寻找最大差价；如果没有第一天买，则递归
 	 * 131ms 23.61%
 	 * @param prices
 	 * @return
@@ -25,10 +25,10 @@ public class BestTimeToBuyAndSellStock {
 		if (start >= prices.length - 1) {
 			return 0;
 		}
-		
-		// 第一天没有买，递归 
+
+		// 第一天没有买，递归
 		int maxNot = maxProfitDp(prices, start + 1);
-	
+
 		// 第一天买了，求最大差
 		int maxYes = 0;
 		int maxSub = 0;
@@ -40,7 +40,7 @@ public class BestTimeToBuyAndSellStock {
 		}
 		return maxYes > maxNot ? maxYes : maxNot;
 	}
-	
+
 	/**
 	 * 个人解法：买入的那天如果后面遇见价格更低的 肯定要重新选择 买入价格更低的那天 作为新的买入进行继续向后算
 	 * 1ms 99.92%
@@ -57,8 +57,7 @@ public class BestTimeToBuyAndSellStock {
 				start = i;
 			}
 		}
-		
 		return maxValue;
 	}
-	
+
 }
