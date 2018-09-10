@@ -10,12 +10,13 @@ package leetcode.simple.array;
 public class OneBitAndTwoBitCharacters {
 
     public static void main(String[] args) {
-
-
+        int[] bits = {1, 1, 1, 0};
+        System.out.println(new OneBitAndTwoBitCharacters().isOneBitCharacter(bits));
     }
 
     /**
-     *
+     * 个人常规解法：不断的切分
+     * 8ms 45.09%
      * @param bits
      * @return
      */
@@ -24,8 +25,22 @@ public class OneBitAndTwoBitCharacters {
         if (bits[bits.length - 1] == 1) {
             return false;
         }
+        // 不断的截取，直到最后
+        int index = 0;
 
+        while (index < bits.length - 2) {
+            if (bits[index] == 0) {
+                index++;
+            } else {
+                // 10 或 11
+                index+=2;
+            }
+        }
 
-        return false;
+        if (index != bits.length - 1 && bits[index] == 1) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
