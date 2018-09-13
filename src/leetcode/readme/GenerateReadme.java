@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "magic-squares-in-grid";
-        String answerPath = "leetcode.simple.array.MagicSquaresInGrid";
+        String questionUrlName = "min-stack";
+        String answerPath = "leetcode.simple.stack.MinStack";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
