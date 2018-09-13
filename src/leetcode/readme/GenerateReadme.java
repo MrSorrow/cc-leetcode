@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "remove-duplicates-from-sorted-array";
-        String answerPath = "leetcode.simple.array.RemoveDuplicates";
+        String questionUrlName = "magic-squares-in-grid";
+        String answerPath = "leetcode.simple.array.MagicSquaresInGrid";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
