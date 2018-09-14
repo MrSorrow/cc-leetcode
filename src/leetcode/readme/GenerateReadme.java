@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "implement-stack-using-queues";
-        String answerPath = "leetcode.simple.stack.ImplementStackUsingQueues";
+        String questionUrlName = "implement-queue-using-stacks";
+        String answerPath = "leetcode.simple.stack.ImplementQueueUsingStacks";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
