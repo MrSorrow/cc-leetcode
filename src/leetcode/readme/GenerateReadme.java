@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "baseball-game";
-        String answerPath = "leetcode.simple.stack.BaseballGame";
+        String questionUrlName = "backspace-string-compare";
+        String answerPath = "leetcode.simple.stack.BackspaceStringCompare";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
