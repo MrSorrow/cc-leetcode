@@ -12,7 +12,7 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "implement-queue-using-stacks";
+        String questionUrlName = "next-greater-element-i";
         String answerPath = "leetcode.simple.stack.ImplementQueueUsingStacks";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
