@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "first-bad-version";
-        String answerPath = "leetcode.simple.binarysearch.FirstBadVersion";
+        String questionUrlName = "valid-perfect-square";
+        String answerPath = "leetcode.simple.binarysearch.ValidPerfectSquare";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
