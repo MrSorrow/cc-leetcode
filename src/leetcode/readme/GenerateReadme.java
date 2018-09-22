@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "kth-largest-element-in-a-stream";
-        String answerPath = "leetcode.simple.heap.KthLargestElementInAStream";
+        String questionUrlName = "design-circular-queue";
+        String answerPath = "leetcode.simple.queue.DesignCircularQueue";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
