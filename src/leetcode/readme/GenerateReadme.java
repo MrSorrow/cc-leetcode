@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "backspace-string-compare";
-        String answerPath = "leetcode.simple.stack.BackspaceStringCompare";
+        String questionUrlName = "kth-largest-element-in-a-stream";
+        String answerPath = "leetcode.simple.heap.KthLargestElementInAStream";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
