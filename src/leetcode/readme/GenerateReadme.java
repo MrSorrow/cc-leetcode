@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "design-circular-deque";
-        String answerPath = "leetcode.simple.queue.DesignCircularDeque";
+        String questionUrlName = "sqrtx";
+        String answerPath = "leetcode.simple.binarysearch.Sqrtx";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
