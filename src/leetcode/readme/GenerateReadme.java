@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "peak-index-in-a-mountain-array";
-        String answerPath = "leetcode.simple.binarysearch.PeakIndexInAMountainArray";
+        String questionUrlName = "roman-to-integer";
+        String answerPath = "leetcode.simple.string.RomanToInteger";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
