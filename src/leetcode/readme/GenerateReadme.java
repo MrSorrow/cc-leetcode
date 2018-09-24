@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "find-smallest-letter-greater-than-target";
-        String answerPath = "leetcode.simple.binarysearch.FindSmallestLetterGreaterThanTarget";
+        String questionUrlName = "peak-index-in-a-mountain-array";
+        String answerPath = "leetcode.simple.binarysearch.PeakIndexInAMountainArray";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
