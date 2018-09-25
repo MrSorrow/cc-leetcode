@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "implement-strstr";
-        String answerPath = "leetcode.simple.string.ImplementStrstr";
+        String questionUrlName = "count-and-say";
+        String answerPath = "leetcode.simple.string.CountAndSay";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
