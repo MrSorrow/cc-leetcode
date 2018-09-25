@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "count-and-say";
-        String answerPath = "leetcode.simple.string.CountAndSay";
+        String questionUrlName = "length-of-last-word";
+        String answerPath = "leetcode.simple.string.LengthOfLastWord";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
