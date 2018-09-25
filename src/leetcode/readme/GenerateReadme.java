@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "length-of-last-word";
-        String answerPath = "leetcode.simple.string.LengthOfLastWord";
+        String questionUrlName = "add-binary";
+        String answerPath = "leetcode.simple.string.AddBinary";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
