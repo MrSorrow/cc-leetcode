@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "longest-common-prefix";
-        String answerPath = "leetcode.simple.string.LongestCommonPrefix";
+        String questionUrlName = "implement-strstr";
+        String answerPath = "leetcode.simple.string.ImplementStrstr";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
