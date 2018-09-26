@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "valid-palindrome";
-        String answerPath = "leetcode.simple.string.ValidPalindrome";
+        String questionUrlName = "reverse-string";
+        String answerPath = "leetcode.simple.string.ReverseString";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
