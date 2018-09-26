@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "ransom-note";
-        String answerPath = "leetcode.simple.string.RansomNote";
+        String questionUrlName = "first-unique-character-in-a-string";
+        String answerPath = "leetcode.simple.string.FirstUniqueCharacterInAString";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
