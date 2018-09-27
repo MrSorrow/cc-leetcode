@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "string-compression";
-        String answerPath = "leetcode.simple.string.StringCompression";
+        String questionUrlName = "repeated-substring-pattern";
+        String answerPath = "leetcode.simple.string.RepeatedSubstringPattern";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
