@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "number-of-segments-in-a-string";
-        String answerPath = "leetcode.simple.string.NumberOfSegmentsInAString";
+        String questionUrlName = "string-compression";
+        String answerPath = "leetcode.simple.string.StringCompression";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
