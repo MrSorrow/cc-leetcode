@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "reverse-string-ii";
-        String answerPath = "leetcode.simple.string.ReverseStringII";
+        String questionUrlName = "maximum-subarray";
+        String answerPath = "leetcode.simple.array.MaxSubArray";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
