@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "longest-uncommon-subsequence-i";
-        String answerPath = "leetcode.simple.string.LongestUncommonSubsequenceI";
+        String questionUrlName = "reverse-string-ii";
+        String answerPath = "leetcode.simple.string.ReverseStringII";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
