@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "detect-capital";
-        String answerPath = "leetcode.simple.string.DetectCapital";
+        String questionUrlName = "longest-uncommon-subsequence-i";
+        String answerPath = "leetcode.simple.string.LongestUncommonSubsequenceI";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
