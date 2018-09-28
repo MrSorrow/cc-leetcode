@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "repeated-substring-pattern";
-        String answerPath = "leetcode.simple.string.RepeatedSubstringPattern";
+        String questionUrlName = "detect-capital";
+        String answerPath = "leetcode.simple.string.DetectCapital";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
