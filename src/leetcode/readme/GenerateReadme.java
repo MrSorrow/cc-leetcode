@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "reverse-words-in-a-string-iii";
-        String answerPath = "leetcode.simple.string.ReverseWordsInAStringIII";
+        String questionUrlName = "robot-return-to-origin";
+        String answerPath = "leetcode.simple.string.RobotReturnToOrigin";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
