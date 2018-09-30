@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "repeated-string-match";
-        String answerPath = "leetcode.simple.string.RepeatedStringMatch";
+        String questionUrlName = "count-binary-substrings";
+        String answerPath = "leetcode.simple.string.CountBinarySubstrings";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
