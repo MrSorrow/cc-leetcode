@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "to-lower-case";
-        String answerPath = "leetcode.simple.string.ToLowerCase";
+        String questionUrlName = "rotated-digits";
+        String answerPath = "leetcode.simple.string.RotatedDigits";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
