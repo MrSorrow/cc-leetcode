@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "count-binary-substrings";
-        String answerPath = "leetcode.simple.string.CountBinarySubstrings";
+        String questionUrlName = "to-lower-case";
+        String answerPath = "leetcode.simple.string.ToLowerCase";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
