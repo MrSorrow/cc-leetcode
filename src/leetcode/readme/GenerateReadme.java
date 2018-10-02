@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "most-common-word";
-        String answerPath = "leetcode.simple.string.MostCommonWord";
+        String questionUrlName = "goat-latin";
+        String answerPath = "leetcode.simple.string.GoatLatin";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
