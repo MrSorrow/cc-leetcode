@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "rotated-digits";
-        String answerPath = "leetcode.simple.string.RotatedDigits";
+        String questionUrlName = "most-common-word";
+        String answerPath = "leetcode.simple.string.MostCommonWord";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
