@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "goat-latin";
-        String answerPath = "leetcode.simple.string.GoatLatin";
+        String questionUrlName = "single-number";
+        String answerPath = "leetcode.simple.hash.SingleNumber";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
