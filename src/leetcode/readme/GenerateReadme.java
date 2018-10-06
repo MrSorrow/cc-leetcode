@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "count-primes";
-        String answerPath = "leetcode.simple.hash.CountPrimes";
+        String questionUrlName = "isomorphic-strings";
+        String answerPath = "leetcode.simple.hash.IsomorphicStrings";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
