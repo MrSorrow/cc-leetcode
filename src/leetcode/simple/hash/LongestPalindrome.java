@@ -10,7 +10,7 @@ package leetcode.simple.hash;
 public class LongestPalindrome {
 
     /**
-     * 个人常规解法：
+     * 个人常规解法：用数组计数，然后偶数次数直接相加，奇数加一次全额即可
      * 7ms 98.65%
      * @param s
      * @return
