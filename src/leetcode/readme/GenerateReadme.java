@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "word-pattern";
-        String answerPath = "leetcode.simple.hash.WordPattern";
+        String questionUrlName = "longest-palindrome";
+        String answerPath = "leetcode.simple.hash.LongestPalindrome";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
