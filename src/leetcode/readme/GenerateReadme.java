@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "find-the-difference";
-        String answerPath = "leetcode.simple.hash.FindTheDifference";
+        String questionUrlName = "word-pattern";
+        String answerPath = "leetcode.simple.hash.WordPattern";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
