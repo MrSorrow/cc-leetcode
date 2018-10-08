@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "island-perimeter";
-        String answerPath = "leetcode.simple.hash.IslandPerimeter";
+        String questionUrlName = "keyboard-row";
+        String answerPath = "leetcode.simple.hash.KeyboardRow";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 

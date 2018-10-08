@@ -54,8 +54,8 @@ public class HeapSort {
 
     public static void main(String[] args) {
         int[] array = {55};
-        ArrayUtils.printArray(array);
+        ArrayUtils.printIntArray(array);
         sort(array);
-        ArrayUtils.printArray(array);
+        ArrayUtils.printIntArray(array);
     }
 }

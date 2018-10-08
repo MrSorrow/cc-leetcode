@@ -14,7 +14,7 @@ public class QuickSort {
         int[] array = {53, 34, 32, 56, 34, 56, 62, 121, 55, 41};
 //        sort(array, 0, array.length - 1);
         sort3way(array, 0, array.length - 1);
-        ArrayUtils.printArray(array);
+        ArrayUtils.printIntArray(array);
     }
 
     public static void sort(int[] array, int start, int end) {

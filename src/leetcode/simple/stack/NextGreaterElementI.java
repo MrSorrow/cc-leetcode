@@ -44,6 +44,6 @@ public class NextGreaterElementI {
     public static void main(String[] args) {
         int[] nums1 = {2, 4};
         int[] nums2 = {1, 2, 3, 4};
-        ArrayUtils.printArray(new NextGreaterElementI().nextGreaterElement(nums1, nums2));
+        ArrayUtils.printIntArray(new NextGreaterElementI().nextGreaterElement(nums1, nums2));
     }
 }

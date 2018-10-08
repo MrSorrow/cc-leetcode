@@ -30,6 +30,6 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         int[] array = {53, 34, 32, 56, 62, 121, 55};
-        ArrayUtils.printArray(sort(array));
+        ArrayUtils.printIntArray(sort(array));
     }
 }

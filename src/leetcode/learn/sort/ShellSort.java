@@ -2,8 +2,6 @@ package leetcode.learn.sort;
 
 import leetcode.utils.ArrayUtils;
 
-import java.util.Collection;
-
 /**
  * @description: 希尔排序
  * @author: guoping wang
@@ -38,6 +36,6 @@ public class ShellSort {
 
     public static void main(String[] args) {
         int[] array = {53, 34, 32, 56, 62, 121, 55, 18, 92, 16, 33, 98, 76};
-        ArrayUtils.printArray(sort(array));
+        ArrayUtils.printIntArray(sort(array));
     }
 }

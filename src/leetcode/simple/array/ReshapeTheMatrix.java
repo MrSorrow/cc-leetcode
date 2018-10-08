@@ -13,8 +13,8 @@ public class ReshapeTheMatrix {
 
     public static void main(String[] args) {
         int[][] nums = {{1, 2}, {3, 4}, {1, 2}, {3, 4}};
-        ArrayUtils.print2DArray(new ReshapeTheMatrix().matrixReshapeDirect(nums, 2, 4));
-        ArrayUtils.print2DArray(new ReshapeTheMatrix().matrixReshapeTemp(nums, 2, 4));
+        ArrayUtils.printInt2DArray(new ReshapeTheMatrix().matrixReshapeDirect(nums, 2, 4));
+        ArrayUtils.printInt2DArray(new ReshapeTheMatrix().matrixReshapeTemp(nums, 2, 4));
     }
 
     /**

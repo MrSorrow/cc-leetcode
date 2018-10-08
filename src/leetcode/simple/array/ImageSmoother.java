@@ -13,7 +13,7 @@ public class ImageSmoother {
 
     public static void main(String[] args) {
         int[][] M = {{2,3,4}, {5,6,7}, {8,9,10},{11,12,13},{14,15,16}};
-        ArrayUtils.print2DArray(new ImageSmoother().imageSmoother(M));
+        ArrayUtils.printInt2DArray(new ImageSmoother().imageSmoother(M));
     }
 
     /**

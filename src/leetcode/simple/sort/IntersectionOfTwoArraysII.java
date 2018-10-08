@@ -19,7 +19,7 @@ public class IntersectionOfTwoArraysII {
     public static void main(String[] args) {
         int[] nums1 = {4, 7, 9, 7, 6, 7};
         int[] nums2 = {5, 0, 0, 6, 1, 6, 2, 2, 4};
-        ArrayUtils.printArray(new IntersectionOfTwoArraysII().intersectFast(nums1, nums2));
+        ArrayUtils.printIntArray(new IntersectionOfTwoArraysII().intersectFast(nums1, nums2));
     }
 
     /**

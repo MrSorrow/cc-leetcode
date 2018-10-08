@@ -17,7 +17,7 @@ public class FairCandySwap {
     public static void main(String[] args) {
         int[] A = {1, 1};
         int[] B = {2, 2};
-        ArrayUtils.printArray(new FairCandySwap().fairCandySwap(A, B));
+        ArrayUtils.printIntArray(new FairCandySwap().fairCandySwap(A, B));
     }
 
     /**
