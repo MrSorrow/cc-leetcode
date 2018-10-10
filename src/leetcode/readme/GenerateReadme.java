@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "minimum-index-sum-of-two-lists";
-        String answerPath = "leetcode.simple.hash.MinimumIndexSumOfTwoLists";
+        String questionUrlName = "set-mismatch";
+        String answerPath = "leetcode.simple.hash.SetMismatch";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
