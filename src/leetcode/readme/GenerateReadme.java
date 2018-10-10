@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "distribute-candies";
-        String answerPath = "leetcode.simple.hash.DistributeCandies";
+        String questionUrlName = "longest-harmonious-subsequence";
+        String answerPath = "leetcode.simple.hash.LongestHarmoniousSubsequence";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
