@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "longest-harmonious-subsequence";
-        String answerPath = "leetcode.simple.hash.LongestHarmoniousSubsequence";
+        String questionUrlName = "minimum-index-sum-of-two-lists";
+        String answerPath = "leetcode.simple.hash.MinimumIndexSumOfTwoLists";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
