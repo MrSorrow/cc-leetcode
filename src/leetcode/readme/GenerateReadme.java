@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "set-mismatch";
-        String answerPath = "leetcode.simple.hash.SetMismatch";
+        String questionUrlName = "employee-importance";
+        String answerPath = "leetcode.simple.hash.EmployeeImportance";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
