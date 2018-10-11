@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "jewels-and-stones";
-        String answerPath = "leetcode.simple.hash.JewelsAndStones";
+        String questionUrlName = "subdomain-visit-count";
+        String answerPath = "leetcode.simple.hash.SubdomainVisitCount";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
