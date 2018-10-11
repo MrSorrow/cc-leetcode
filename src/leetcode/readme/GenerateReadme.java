@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "employee-importance";
-        String answerPath = "leetcode.simple.hash.EmployeeImportance";
+        String questionUrlName = "longest-word-in-dictionary";
+        String answerPath = "leetcode.simple.hash.LongestWordInDictionary";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
