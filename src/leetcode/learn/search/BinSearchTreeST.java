@@ -2,7 +2,6 @@ package leetcode.learn.search;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Scanner;
 
 /**
  * @description: 二叉查找树实现
