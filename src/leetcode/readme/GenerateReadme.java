@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "merge-two-sorted-lists";
-        String answerPath = "leetcode.simple.linkedlist.MergeTwoSortedLists";
+        String questionUrlName = "remove-duplicates-from-sorted-list";
+        String answerPath = "leetcode.simple.linkedlist.RemoveDuplicatesFromSortedList";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
