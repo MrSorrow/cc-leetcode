@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "uncommon-words-from-two-sentences";
-        String answerPath = "leetcode.simple.hash.UncommonWordsFromTwoSentences";
+        String questionUrlName = "merge-two-sorted-lists";
+        String answerPath = "leetcode.simple.linkedlist.MergeTwoSortedLists";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
