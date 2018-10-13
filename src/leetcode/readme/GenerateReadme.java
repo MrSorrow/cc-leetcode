@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "linked-list-cycle";
-        String answerPath = "leetcode.simple.linkedlist.LinkedListCycle";
+        String questionUrlName = "intersection-of-two-linked-lists";
+        String answerPath = "leetcode.simple.linkedlist.IntersectionOfTwoLinkedLists";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
