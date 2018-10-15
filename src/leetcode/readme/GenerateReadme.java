@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "design-linked-list";
-        String answerPath = "leetcode.simple.linkedlist.DesignLinkedList";
+        String questionUrlName = "middle-of-the-linked-list";
+        String answerPath = "leetcode.simple.linkedlist.MiddleOfTheLinkedList";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
