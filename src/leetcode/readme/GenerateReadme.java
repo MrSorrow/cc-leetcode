@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "reverse-linked-list";
-        String answerPath = "leetcode.simple.linkedlist.ReverseLinkedList";
+        String questionUrlName = "palindrome-linked-list";
+        String answerPath = "leetcode.simple.linkedlist.PalindromeLinkedList";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
