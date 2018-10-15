@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "palindrome-linked-list";
-        String answerPath = "leetcode.simple.linkedlist.PalindromeLinkedList";
+        String questionUrlName = "delete-node-in-a-linked-list";
+        String answerPath = "leetcode.simple.linkedlist.DeleteNodeInALinkedList";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
