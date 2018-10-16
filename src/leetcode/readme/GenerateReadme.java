@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "reverse-bits";
-        String answerPath = "leetcode.simple.bit.ReverseBits";
+        String questionUrlName = "number-of-1-bits";
+        String answerPath = "leetcode.simple.bit.NumberOf1Bits";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
