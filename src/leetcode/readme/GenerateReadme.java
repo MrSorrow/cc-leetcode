@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "power-of-four";
-        String answerPath = "leetcode.simple.bit.PowerOfFour";
+        String questionUrlName = "sum-of-two-integers";
+        String answerPath = "leetcode.simple.bit.SumOfTwoIntegers";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
