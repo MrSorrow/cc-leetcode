@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "sum-of-two-integers";
-        String answerPath = "leetcode.simple.bit.SumOfTwoIntegers";
+        String questionUrlName = "binary-watch";
+        String answerPath = "leetcode.simple.bit.BinaryWatch";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
