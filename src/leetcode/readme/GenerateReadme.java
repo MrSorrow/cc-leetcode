@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "hamming-distance";
-        String answerPath = "leetcode.simple.bit.HammingDistance";
+        String questionUrlName = "convert-a-number-to-hexadecimal";
+        String answerPath = "leetcode.simple.bit.ConvertANumberToHexadecimal";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
