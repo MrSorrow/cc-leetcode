@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "number-complement";
-        String answerPath = "leetcode.simple.bit.NumberComplement";
+        String questionUrlName = "binary-number-with-alternating-bits";
+        String answerPath = "leetcode.simple.bit.BinaryNumberWithAlternatingBits";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
