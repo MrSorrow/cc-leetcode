@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "convert-a-number-to-hexadecimal";
-        String answerPath = "leetcode.simple.bit.ConvertANumberToHexadecimal";
+        String questionUrlName = "number-complement";
+        String answerPath = "leetcode.simple.bit.NumberComplement";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
