@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "prime-number-of-set-bits-in-binary-representation";
-        String answerPath = "leetcode.simple.bit.PrimeNumberOfSetBitsInBinaryRepresentation";
+        String questionUrlName = "letter-case-permutation";
+        String answerPath = "leetcode.simple.bit.LetterCasePermutation";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
