@@ -68,7 +68,7 @@ public class LetterCasePermutation {
     }
 
     /**
-     * 更加优秀的递归
+     * 更加优秀的递归：就是更改字母大小写，保存这两种情况
      * 5ms 100%
      * @param list
      * @param array
