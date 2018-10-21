@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "letter-case-permutation";
-        String answerPath = "leetcode.simple.bit.LetterCasePermutation";
+        String questionUrlName = "reverse-integer";
+        String answerPath = "leetcode.simple.math.ReverseInteger";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
