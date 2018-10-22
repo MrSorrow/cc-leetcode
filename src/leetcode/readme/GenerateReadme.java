@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "palindrome-number";
-        String answerPath = "leetcode.simple.math.PalindromeNumber";
+        String questionUrlName = "excel-sheet-column-title";
+        String answerPath = "leetcode.simple.math.ExcelSheetColumnTitle";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
