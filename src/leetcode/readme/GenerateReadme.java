@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "excel-sheet-column-number";
-        String answerPath = "leetcode.simple.math.ExcelSheetColumnNumber";
+        String questionUrlName = "factorial-trailing-zeroes";
+        String answerPath = "leetcode.simple.math.FactorialTrailingZeroes";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
