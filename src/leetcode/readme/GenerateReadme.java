@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "power-of-three";
-        String answerPath = "leetcode.simple.math.PowerOfThree";
+        String questionUrlName = "nth-digit";
+        String answerPath = "leetcode.simple.math.NthDigit";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
