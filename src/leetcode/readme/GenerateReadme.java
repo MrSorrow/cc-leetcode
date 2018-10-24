@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "add-digits";
-        String answerPath = "leetcode.simple.math.AddDigits";
+        String questionUrlName = "ugly-number";
+        String answerPath = "leetcode.simple.math.UglyNumber";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
@@ -33,6 +33,5 @@ public class GenerateReadme {
         ReadmeQInfo readmeQInfo = ReadmeInfoUtil.buildReadmeQInfo(questionInfo, answerPath);
 
         ReadmeInfoUtil.updateReadme(readmeFilePath, readmeQInfo);
-
     }
 }
