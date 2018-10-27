@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "minimum-moves-to-equal-array-elements";
-        String answerPath = "leetcode.simple.math.MinimumMovesToEqualArrayElements";
+        String questionUrlName = "perfect-number";
+        String answerPath = "leetcode.simple.math.PerfectNumber";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
