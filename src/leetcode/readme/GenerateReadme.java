@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "nth-digit";
-        String answerPath = "leetcode.simple.math.NthDigit";
+        String questionUrlName = "add-strings";
+        String answerPath = "leetcode.simple.math.AddStrings";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
