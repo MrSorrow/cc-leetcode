@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "self-dividing-numbers";
-        String answerPath = "leetcode.simple.math.SelfDividingNumbers";
+        String questionUrlName = "largest-triangle-area";
+        String answerPath = "leetcode.simple.math.LargestTriangleArea";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
