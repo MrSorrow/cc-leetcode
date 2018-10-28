@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "sum-of-square-numbers";
-        String answerPath = "leetcode.simple.math.SumOfSquareNumbers";
+        String questionUrlName = "self-dividing-numbers";
+        String answerPath = "leetcode.simple.math.SelfDividingNumbers";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
