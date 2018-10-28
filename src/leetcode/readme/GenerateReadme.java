@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "largest-triangle-area";
-        String answerPath = "leetcode.simple.math.LargestTriangleArea";
+        String questionUrlName = "projection-area-of-3d-shapes";
+        String answerPath = "leetcode.simple.math.ProjectionAreaOf3DShapes";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
