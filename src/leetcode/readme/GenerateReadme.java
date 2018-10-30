@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "x-of-a-kind-in-a-deck-of-cards";
-        String answerPath = "leetcode.simple.math.SurfaceAreaOf3DShapes";
+        String questionUrlName = "nim-game";
+        String answerPath = "leetcode.simple.intelligence.NimGame";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
