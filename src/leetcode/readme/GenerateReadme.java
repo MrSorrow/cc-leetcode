@@ -12,7 +12,7 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "surface-area-of-3d-shapes";
+        String questionUrlName = "x-of-a-kind-in-a-deck-of-cards";
         String answerPath = "leetcode.simple.math.SurfaceAreaOf3DShapes";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
