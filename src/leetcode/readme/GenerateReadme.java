@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "same-tree";
-        String answerPath = "leetcode.simple.dfs.SameTree";
+        String questionUrlName = "symmetric-tree";
+        String answerPath = "leetcode.simple.dfs.SymmetricTree";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
