@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "balanced-binary-tree";
-        String answerPath = "leetcode.simple.dfs.BalancedBinaryTree";
+        String questionUrlName = "minimum-depth-of-binary-tree";
+        String answerPath = "leetcode.simple.dfs.MinimumDepthOfBinaryTree";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
