@@ -16,7 +16,7 @@ public class MinimumDepthOfBinaryTree {
         TreeNode(int x) { val = x; }
     }
 
-    
+
     /**
      * 个人常规解法：递归，一个节点分四种情况
      * 0ms 100%
