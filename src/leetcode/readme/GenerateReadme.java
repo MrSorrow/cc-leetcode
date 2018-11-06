@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "convert-sorted-array-to-binary-search-tree";
-        String answerPath = "leetcode.simple.dfs.ConvertSortedArrayToBinarySearchTree";
+        String questionUrlName = "balanced-binary-tree";
+        String answerPath = "leetcode.simple.dfs.BalancedBinaryTree";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
