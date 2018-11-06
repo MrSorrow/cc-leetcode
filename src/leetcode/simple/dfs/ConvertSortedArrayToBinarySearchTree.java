@@ -1,7 +1,7 @@
 package leetcode.simple.dfs;
 
 /**
- * @description: 108. 将有序数组转换为二叉搜索树
+ * @description: 108.将有序数组转换为二叉搜索树
  * @see: <a>https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/</a>
  * @author: guoping wang
  * @date: 2018/11/6 19:24
