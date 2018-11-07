@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "binary-tree-paths";
-        String answerPath = "leetcode.simple.dfs.BinaryTreePaths";
+        String questionUrlName = "maximum-depth-of-n-ary-tree";
+        String answerPath = "leetcode.simple.dfs.MaximumDepthOfNAryTree";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
