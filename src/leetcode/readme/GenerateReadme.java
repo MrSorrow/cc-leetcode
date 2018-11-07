@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "path-sum";
-        String answerPath = "leetcode.simple.dfs.PathSum";
+        String questionUrlName = "binary-tree-paths";
+        String answerPath = "leetcode.simple.dfs.BinaryTreePaths";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
