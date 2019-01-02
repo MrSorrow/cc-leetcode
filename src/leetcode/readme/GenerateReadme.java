@@ -12,10 +12,10 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "flood-fill";
-        String answerPath = "leetcode.simple.dfs.FloodFill";
+        String questionUrlName = "next-permutation";
+        String answerPath = "leetcode.mid.NextPermutation";
 
-        String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
+        String readmeFilePath = "/Users/guoping/Projects/Intelljidea/cc-leetcode/Readme.md";
 
         QuestionInfo questionInfo = null;
 
