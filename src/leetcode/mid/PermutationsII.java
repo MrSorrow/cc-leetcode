@@ -3,39 +3,41 @@ package leetcode.mid;
 import leetcode.utils.ListUtils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 /**
- * @description: 46. 全排列
- * @see: <a>https://leetcode-cn.com/problems/permutations/</a>
+ * @description: 47. 全排列 II
+ * @see: <a>https://leetcode-cn.com/problems/permutations-ii/</a>
  * @author: guoping wang
- * @date: 2019/1/6 10:45
+ * @date: 2019/1/6 11:12
  * @project: cc-leetcode
  */
-public class Permutations {
+public class PermutationsII {
 
     /**
-     * 个人常规解法：递归解法
-     * 6ms 47.42%
+     * 个人常规解法：46题排列的去重结果
+     * 26ms 38.12%
      * @param nums
      * @return
      */
-    public List<List<Integer>> permute(int[] nums) {
-        return permute(nums, 0);
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        return new ArrayList<>(permute(nums, 0));
     }
 
-    private List<List<Integer>> permute(int[] nums, int start) {
-        List<List<Integer>> res = new ArrayList<>();
+    private HashSet<List<Integer>> permute(int[] nums, int start) {
+        HashSet<List<Integer>> res = new HashSet<>();
         if (start == nums.length - 1) {
             List<Integer> ele = new ArrayList<Integer>(){{add(nums[start]);}};
             res.add(ele);
         } else if (start > nums.length - 1) {
             // pass
         } else {
-            List<List<Integer>> list = permute(nums, start + 1);
-            for (int i = 0; i < list.size(); i++) {
-                for (int j = 0; j <= list.get(i).size(); j++) {
-                    List<Integer> ele = new ArrayList<>(list.get(i));
+            HashSet<List<Integer>> set = permute(nums, start + 1);
+            for (List<Integer> list: set) {
+                for (int j = 0; j <= list.size(); j++) {
+                    List<Integer> ele = new ArrayList<>(list);
                     ele.add(j, nums[start]);
                     res.add(ele);
                 }
@@ -45,14 +47,15 @@ public class Permutations {
     }
 
     /**
-     * 参考解法：深度优先搜索解法
-     * 3ms 96.02%
+     * 参考解法：DFS
+     * 4ms 98.47%
      * @param nums
      * @return
      */
-    public List<List<Integer>> permuteDFS(int[] nums) {
+    public List<List<Integer>> permuteUniqueDFS(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         boolean[] flags = new boolean[nums.length];
+        Arrays.sort(nums);
         dfs(res, new ArrayList<Integer>(), flags, nums, 0);
         return res;
     }
@@ -63,6 +66,10 @@ public class Permutations {
         } else {
             for (int i = 0; i < nums.length; i++) {
                 if (!flags[i]) {
+                    //  去重判断，需要之前相同的用过才能使用现在的，否则之前没用的话，用现在的相当于用之前的
+                    if (i > 0 && nums[i] == nums[i - 1] && !flags[i - 1]) {
+                        continue;
+                    }
                     list.add(nums[i]);
                     flags[i] = true;
                     dfs(res, list, flags, nums, start + 1);
@@ -74,7 +81,7 @@ public class Permutations {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3};
-        ListUtils.printLists(new Permutations().permuteDFS(nums));
+        int[] nums = {1, 1, 2};
+        ListUtils.printLists(new PermutationsII().permuteUniqueDFS(nums));
     }
 }
