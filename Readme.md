@@ -1,6 +1,11 @@
-# Leetcode算法突破
-![](https://img.shields.io/badge/java-1.8-blue.svg) ![](https://img.shields.io/badge/leetcode-simple-green.svg)
+# 算法突破
+![](https://img.shields.io/badge/java-1.8-blue.svg) ![](https://img.shields.io/badge/leetcode-simple-green.svg) ![](https://img.shields.io/badge/leetcode-medium-red.svg) ![](https://img.shields.io/badge/leetcode-hard-brown.svg)
 
+## 题解表格自动生成
+通过抓取LeetCode网站的算法题相关Json数据进行处理，自动更新readme.md中的题解表格
+- 抓取LeetCode题目数据，参考[爬取LeetCode题目——如何发送GraphQL Query获取数据](https://www.cnblogs.com/ZhaoxiCheung/p/9333476.html)
+- 对抓取数据进行重新包装，添加个人题解、日期等等信息
+- 利用ID进行通过插入排序添加一行，更新表格
 
 ## LeetCode Solution Table
 
