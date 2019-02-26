@@ -11,7 +11,7 @@ public class GasStation {
 
     /**
      * 个人常规解法：直接暴力求解，重要的是剪枝
-     * 181ms 8.55%
+     * 181ms 8.55%  优化后 2ms 46.22%
      * @param gas
      * @param cost
      * @return
@@ -35,6 +35,7 @@ public class GasStation {
                 }
 
                 if (cost[start % gas.length] < 0) {
+                    i = start;  // 优化方法
                     break;
                 }
             }
