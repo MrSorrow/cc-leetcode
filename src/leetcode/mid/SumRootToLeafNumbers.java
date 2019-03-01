@@ -56,26 +56,30 @@ public class SumRootToLeafNumbers {
         return res;
     }
 
+    int sum = 0;
     /**
-     * 直接递归解决
+     * 受到其他解法启发，其实直接DFS可以解决
+     * 0ms 100%
      * @param root
      * @return
      */
     public int sumNumbersDirect(TreeNode root) {
         if(root == null)
             return 0;
-        return sumNumbersDirect(root, 0);
+        sumNumbersDirect(root, root.val);
+        return sum;
     }
 
-    public int sumNumbersDirect(TreeNode root, int k) {
-        int leftSum = 0, rightSum = 0;
-        if (root.left == null && root.right == null)
-            return k + root.val;
-        if (root.left != null)
-            leftSum = sumNumbersDirect(root.left, 10 * (k + root.val));
-        if (root.right != null)
-            rightSum = sumNumbersDirect(root.right, 10 * (k + root.val));
-        return leftSum + rightSum;
+    public void sumNumbersDirect(TreeNode root, int num) {
+        if (root.left != null) {
+            sumNumbersDirect(root.left, 10 * num + root.left.val);
+        }
+        if (root.right != null) {
+            sumNumbersDirect(root.right, 10 * num + root.right.val);
+        }
+        if (root.left == null && root.right == null) {
+            sum += num;
+        }
     }
 
     public static void main(String[] args) {
