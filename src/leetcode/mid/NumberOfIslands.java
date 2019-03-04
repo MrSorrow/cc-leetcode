@@ -101,6 +101,26 @@ public class NumberOfIslands {
         numIslandsDFS(grid, row, col + 1);
     }
 
+    /**
+     * 性能更优，仔细发现如果没有赋值grid，就会造成遍历过的陆地又忘记了
+     * 4ms 99.88%
+     * @param grid
+     * @param row
+     * @param col
+     * @return
+     */
+    private char[][] numIslandsDFSBetter(char[][] grid, int row, int col) {
+        if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length || grid[row][col] == '0') {
+            return grid;
+        }
+        grid[row][col] = '0';
+        grid = numIslandsDFSBetter(grid, row - 1, col);
+        grid = numIslandsDFSBetter(grid, row + 1, col);
+        grid = numIslandsDFSBetter(grid, row, col - 1);
+        grid = numIslandsDFSBetter(grid, row, col + 1);
+        return grid;
+    }
+
     public static void main(String[] args) {
         char[][] grid = {{'1','1','1','1','0'},{'1','1','0','1','0'},{'1','1','0','0','0'},{'0','0','0','0','0'}};
         System.out.println(new NumberOfIslands().numIslandsDFS(grid));
