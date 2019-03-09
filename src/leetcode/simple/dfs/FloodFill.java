@@ -1,6 +1,6 @@
 package leetcode.simple.dfs;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 /**
  * @description: 733. 图像渲染

@@ -1,6 +1,6 @@
 package leetcode.simple.array;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 /**
  * @description: 566. 重塑矩阵

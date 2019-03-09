@@ -1,6 +1,6 @@
 package leetcode.simple.hash;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 /**
  * @description: 645. 错误的集合

@@ -1,6 +1,6 @@
 package leetcode.simple.array;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 /**
  * @description: 283. 移动零

@@ -12,10 +12,10 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "next-permutation";
-        String answerPath = "leetcode.mid.NextPermutation";
+        String questionUrlName = "remove-duplicates-from-sorted-list-ii";
+        String answerPath = "leetcode.mid.RemoveDuplicatesFromSortedListII";
 
-        String readmeFilePath = "/Users/guoping/Projects/Intelljidea/cc-leetcode/Readme.md";
+        String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 
         QuestionInfo questionInfo = null;
 

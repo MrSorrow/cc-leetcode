@@ -1,6 +1,6 @@
 package leetcode.mid;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 /**
  * @description: 59. 螺旋矩阵 II

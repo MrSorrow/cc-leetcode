@@ -1,6 +1,6 @@
 package leetcode.simple.sort;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 import java.util.*;
 

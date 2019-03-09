@@ -1,6 +1,6 @@
 package leetcode.simple.other;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 import java.util.Arrays;
 import java.util.Comparator;

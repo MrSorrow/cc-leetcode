@@ -1,6 +1,6 @@
 package leetcode.simple.other;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 /**
  * @description: 492. 构造矩形

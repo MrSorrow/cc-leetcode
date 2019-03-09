@@ -1,6 +1,6 @@
 package leetcode.simple.string;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 import java.util.ArrayList;
 import java.util.Comparator;

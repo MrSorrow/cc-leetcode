@@ -1,6 +1,6 @@
 package leetcode.mid;
 
-import leetcode.utils.ListUtils;
+import utils.ListUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
 package leetcode.simple.array;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 import java.util.HashSet;
 

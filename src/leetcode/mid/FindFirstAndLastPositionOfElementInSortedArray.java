@@ -1,6 +1,6 @@
 package leetcode.mid;
 
-import leetcode.utils.ArrayUtils;
+import utils.ArrayUtils;
 
 /**
  * @description: 34. 在排序数组中查找元素的第一个和最后一个位置
