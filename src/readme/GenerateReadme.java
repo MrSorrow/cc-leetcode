@@ -1,4 +1,4 @@
-package leetcode.readme;
+package readme;
 
 import java.io.IOException;
 
@@ -12,8 +12,8 @@ public class GenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "remove-duplicates-from-sorted-list-ii";
-        String answerPath = "leetcode.mid.RemoveDuplicatesFromSortedListII";
+        String questionUrlName = "binary-tree-right-side-view";
+        String answerPath = "leetcode.mid.BinaryTreeRightSideView";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
 

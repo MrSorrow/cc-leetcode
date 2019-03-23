@@ -1,4 +1,4 @@
-package leetcode.readme;
+package readme;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;

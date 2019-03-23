@@ -1,4 +1,4 @@
-package leetcode.readme;
+package readme;
 
 /**
  * @description: 获取leetcode-cn官网题目信息的实体类

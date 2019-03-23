@@ -1,4 +1,4 @@
-package leetcode.readme;
+package readme;
 
 /**
  * @description:
