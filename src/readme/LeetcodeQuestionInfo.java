@@ -6,7 +6,7 @@ package readme;
  * @date: 2018/9/13 13:10
  * @project: cc-leetcode
  */
-public class QuestionInfo {
+public class LeetcodeQuestionInfo {
 
     /**
      * questionId : 717
@@ -74,7 +74,7 @@ public class QuestionInfo {
 
     @Override
     public String toString() {
-        return "QuestionInfo{" +
+        return "LeetcodeQuestionInfo{" +
                 "questionId='" + questionId + '\'' +
                 ", questionFrontendId='" + questionFrontendId + '\'' +
                 ", questionTitle='" + questionTitle + '\'' +

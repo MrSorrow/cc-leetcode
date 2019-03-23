@@ -6,7 +6,7 @@ package readme;
  * @date: 2018/9/13 13:37
  * @project: cc-leetcode
  */
-public class ReadmeQInfo extends QuestionInfo {
+public class LeetcodeReadmeQInfo extends LeetcodeQuestionInfo {
 
     /**
      * date : 2018-09-09
@@ -34,7 +34,7 @@ public class ReadmeQInfo extends QuestionInfo {
 
     @Override
     public String toString() {
-        return "ReadmeQInfo{" +
+        return "LeetcodeReadmeQInfo{" +
                 "date='" + date + '\'' +
                 ", answerAddress='" + answerAddress + '\'' +
                 "} " + super.toString();

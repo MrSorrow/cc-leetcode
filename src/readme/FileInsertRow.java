@@ -51,7 +51,7 @@ public class FileInsertRow {
      * @param inFile
      * @return
      */
-    public static int checkInsertPosition(Integer id, File inFile) {
+    public static int checkInsertPosition(Integer id, File inFile, String tableName) {
         // 输入
         FileInputStream fis = null;
         BufferedReader in = null;
@@ -60,20 +60,31 @@ public class FileInsertRow {
             in = new BufferedReader(new InputStreamReader(fis));
             String thisLine = null;
             int insertLine = 1;
-            boolean beyondTable = false;
             int questionId = 0;
+            boolean hasScanToS2OTable = false, beyondTable = false;
             while ((thisLine = in.readLine()) != null) {
+                if (!hasScanToS2OTable) {
+                    if (thisLine.contains(tableName)) {
+                        hasScanToS2OTable = true;
+                        System.out.println("[Info]\t寻找到题解表格:" + tableName);
+                    }
+                    insertLine++;
+                    continue;
+                }
+
+                // 已经开始扫描到剑指Offer题解表格
                 if ("".equals(thisLine)) {
-                    System.out.println("跳过第" + insertLine + "行，空行...");
+                    System.out.println("[Debug]\t跳过第" + insertLine + "行，空行...");
                     if (!beyondTable) {
                         insertLine++;
                     }
                     continue;
                 }
+
                 try {
                     questionId = Integer.valueOf(thisLine.substring(1, 6).trim());
                 } catch (NumberFormatException e) {
-                    System.out.println("跳过第" + insertLine + "行，非表格区域...");
+                    System.out.println("[Debug]\t跳过第" + insertLine + "行，非表格区域...");
                     if (!beyondTable) {
                         insertLine++;
                     }
@@ -91,6 +102,7 @@ public class FileInsertRow {
                     }
                 }
             }
+            System.out.println("[Debug]\t寻找到合适插入位置，第" + insertLine + "行...");
             return insertLine;
         } catch (FileNotFoundException e) {
             e.printStackTrace();

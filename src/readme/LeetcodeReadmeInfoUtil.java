@@ -19,7 +19,7 @@ import java.util.Map;
  * @date: 2018/9/13 13:13
  * @project: cc-leetcode
  */
-public class ReadmeInfoUtil {
+public class LeetcodeReadmeInfoUtil {
 
     private static final String questionUrl = "https://leetcode-cn.com/problemset/algorithms/";
     private static final String graphqlUrl = "https://leetcode-cn.com/graphql";
@@ -34,7 +34,7 @@ public class ReadmeInfoUtil {
      * @return
      * @throws IOException
      */
-    public static QuestionInfo getQuestionInfoByName(String questionUrlName) throws IOException {
+    public static LeetcodeQuestionInfo getQuestionInfoByName(String questionUrlName) throws IOException {
         Connection.Response response = Jsoup.connect(questionUrl)
                 .method(Connection.Method.GET)
                 .execute();
@@ -73,7 +73,7 @@ public class ReadmeInfoUtil {
         String json = response1.body().string();
         Gson gson = new Gson();
         JsonObject jsonObject = (JsonObject) new JsonParser().parse(json);
-        QuestionInfo questionInfo = gson.fromJson(jsonObject.get("data").getAsJsonObject().get("question").getAsJsonObject(), QuestionInfo.class);
+        LeetcodeQuestionInfo questionInfo = gson.fromJson(jsonObject.get("data").getAsJsonObject().get("question").getAsJsonObject(), LeetcodeQuestionInfo.class);
         System.out.println(gson.toJson(questionInfo));
         return questionInfo;
     }
@@ -84,9 +84,9 @@ public class ReadmeInfoUtil {
      * @param answerPath
      * @return
      */
-    public static ReadmeQInfo buildReadmeQInfo(QuestionInfo questionInfo, String answerPath) {
+    public static LeetcodeReadmeQInfo buildReadmeQInfo(LeetcodeQuestionInfo questionInfo, String answerPath) {
 
-        ReadmeQInfo readmeQInfo = new ReadmeQInfo();
+        LeetcodeReadmeQInfo readmeQInfo = new LeetcodeReadmeQInfo();
         String translatedTitle = "[" + questionInfo.getTranslatedTitle() + "](" + parseTranslatedTitle(questionInfo.getQuestionTitleSlug()) + ")";
         readmeQInfo.setTranslatedTitle(translatedTitle);
         String questionTitle = "[" + questionInfo.getQuestionTitle() + "](" + parseQuestionTitle(questionInfo.getQuestionTitleSlug()) + ")";
@@ -135,7 +135,7 @@ public class ReadmeInfoUtil {
      * @param filePath
      * @param readmeQInfo
      */
-    public static void updateReadme(String filePath, ReadmeQInfo readmeQInfo) {
+    public static void updateReadme(String filePath, LeetcodeReadmeQInfo readmeQInfo, String tableName) {
         File readmeFile = new File(filePath);
 
         // 构造插入数据内容
@@ -154,12 +154,12 @@ public class ReadmeInfoUtil {
         stringBuilder.append(readmeQInfo.getDate());
         stringBuilder.append(" |");
 
-        int lineNum = checkInsertPosition(readmeQInfo.getQuestionFrontendId(), readmeFile);
+        int lineNum = checkInsertPosition(readmeQInfo.getQuestionFrontendId(), readmeFile, tableName);
         if (lineNum == -1) {
-            System.out.println("更新失败，插入行号获取错误！");
+            System.out.println("[Error]\t更新失败，插入行号获取错误！");
             return;
         } else if (lineNum == -2) {
-            System.out.println("已经存在该题解，无需更新！");
+            System.out.println("[Info]\t已经存在该题解，无需更新！");
             return;
         }
 
@@ -174,7 +174,7 @@ public class ReadmeInfoUtil {
      * 检查插入位置
      * @return
      */
-    private static int checkInsertPosition(String id, File inFile) {
-        return FileInsertRow.checkInsertPosition(Integer.valueOf(id), inFile);
+    private static int checkInsertPosition(String id, File inFile, String tableName) {
+        return FileInsertRow.checkInsertPosition(Integer.valueOf(id), inFile, tableName);
     }
 }
