@@ -296,3 +296,8 @@
 | 965    | [单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/description/) | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/) | Easy       | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/leetcode/mid/UniqueBinarySearchTreesII.java) | 2019-03-16 |
 | 993    | [二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree/description/) | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/) | Easy       | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/leetcode/simple/tree/CousinsInBinaryTree.java) | 2019-03-17 |
 
+## 剑指Offer Solution Table
+
+| ID   | 题名                                                         | Answer                                                       | Date       |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| 4    | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e/) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/SearchIn2DArray.java) | 2019-03-23 |
