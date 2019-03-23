@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/java-1.8-blue.svg) ![](https://img.shields.io/badge/leetcode-simple-green.svg) ![](https://img.shields.io/badge/leetcode-medium-red.svg) ![](https://img.shields.io/badge/leetcode-hard-brown.svg)
 
 ## 题解表格自动生成
-### LeetCode
+### 「LeetCode」
 通过抓取LeetCode网站的算法题相关Json数据进行处理，自动更新Readme.md中的题解表格
 - 抓取LeetCode题目数据，参考[爬取LeetCode题目——如何发送GraphQL Query获取数据](https://www.cnblogs.com/ZhaoxiCheung/p/9333476.html)
 - 对抓取数据进行重新包装，添加个人题解、日期等等信息
@@ -16,7 +16,7 @@ String questionUrlName = "binary-tree-right-side-view";
 String answerPath = "leetcode.mid.BinaryTreeRightSideView";
 ```
 
-### 剑指Offer
+### 「剑指Offer」
 通过手动输入题目信息生成数据信息，类似LeetCode自动更新Readme.md中的题解表格
 
 **使用方式**
