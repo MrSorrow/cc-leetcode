@@ -2,10 +2,30 @@
 ![](https://img.shields.io/badge/java-1.8-blue.svg) ![](https://img.shields.io/badge/leetcode-simple-green.svg) ![](https://img.shields.io/badge/leetcode-medium-red.svg) ![](https://img.shields.io/badge/leetcode-hard-brown.svg)
 
 ## 题解表格自动生成
+#### LeetCode
 通过抓取LeetCode网站的算法题相关Json数据进行处理，自动更新Readme.md中的题解表格
 - 抓取LeetCode题目数据，参考[爬取LeetCode题目——如何发送GraphQL Query获取数据](https://www.cnblogs.com/ZhaoxiCheung/p/9333476.html)
 - 对抓取数据进行重新包装，添加个人题解、日期等等信息
 - 利用ID通过插入排序进行添加一行，更新表格
+
+**使用方式**
+在 `LeetcodeGenerateReadme.java` 的 `main()` 方法中填充题目信息即可，如下示例
+```java
+String questionUrlName = "binary-tree-right-side-view";
+String answerPath = "leetcode.mid.BinaryTreeRightSideView";
+```
+
+#### 剑指Offer
+通过手动输入题目信息生成数据信息，类似LeetCode自动更新Readme.md中的题解表格
+
+**使用方式**
+在 `Sword2OfferGenerateReadme.java` 的 `main()` 方法中填充字段信息即可，如下示例
+```java
+String questionId = "3";
+String questionName = "数组中重复的数字";
+String questionUrl = "https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8";
+String answerPath = "sword2offer.UniqueNumInArray";
+```
 
 ## LeetCode Solution Table
 
