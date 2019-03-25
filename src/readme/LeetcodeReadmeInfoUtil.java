@@ -92,7 +92,7 @@ public class LeetcodeReadmeInfoUtil {
         String questionTitle = "[" + questionInfo.getQuestionTitle() + "](" + parseQuestionTitle(questionInfo.getQuestionTitleSlug()) + ")";
         readmeQInfo.setQuestionTitle(questionTitle);
         String answerUrl = parseAnswerPath(answerPath);
-        answerUrl = "[" + answerUrl.substring(answerUrl.lastIndexOf(".") + 1).toUpperCase()
+        answerUrl = "[" + (answerUrl.substring(answerUrl.lastIndexOf(".") + 1).equals("java") ? "Java" : "SQL")
                 + "](" + answerUrl + ")";
         readmeQInfo.setDate(new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         readmeQInfo.setAnswerAddress(answerUrl);
