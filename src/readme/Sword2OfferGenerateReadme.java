@@ -13,10 +13,10 @@ import java.util.Date;
 public class Sword2OfferGenerateReadme {
 
     public static void main(String[] args) {
-        String questionId = "3";
-        String questionName = "数组中重复的数字";
-        String questionUrl = "https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8";
-        String answerPath = "sword2offer.UniqueNumInArray";
+        String questionId = "5";
+        String questionName = "替换空格";
+        String questionUrl = "https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423";
+        String answerPath = "sword2offer.ReplaceSpace";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
         String tableName = "剑指Offer Solution Table";

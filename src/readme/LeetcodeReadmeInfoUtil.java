@@ -91,8 +91,9 @@ public class LeetcodeReadmeInfoUtil {
         readmeQInfo.setTranslatedTitle(translatedTitle);
         String questionTitle = "[" + questionInfo.getQuestionTitle() + "](" + parseQuestionTitle(questionInfo.getQuestionTitleSlug()) + ")";
         readmeQInfo.setQuestionTitle(questionTitle);
-        String answerUrl = "[" + answerPath.substring(answerPath.lastIndexOf(".")).toUpperCase()
-                + "](" + parseAnswerPath(answerPath) + ")";
+        String answerUrl = parseAnswerPath(answerPath);
+        answerUrl = "[" + answerUrl.substring(answerUrl.lastIndexOf(".") + 1).toUpperCase()
+                + "](" + answerUrl + ")";
         readmeQInfo.setDate(new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         readmeQInfo.setAnswerAddress(answerUrl);
 

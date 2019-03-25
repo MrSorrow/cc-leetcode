@@ -328,3 +328,5 @@ String answerPath = "sword2offer.UniqueNumInArray";
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | 3    | [数组中重复的数字](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/UniqueNumInArray.java) | 2019-03-23 |
 | 4    | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e/) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/SearchIn2DArray.java) | 2019-03-23 |
+| 5    | [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/ReplaceSpace.java) | 2019-03-25 |
+
