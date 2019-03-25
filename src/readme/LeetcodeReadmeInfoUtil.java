@@ -91,7 +91,8 @@ public class LeetcodeReadmeInfoUtil {
         readmeQInfo.setTranslatedTitle(translatedTitle);
         String questionTitle = "[" + questionInfo.getQuestionTitle() + "](" + parseQuestionTitle(questionInfo.getQuestionTitleSlug()) + ")";
         readmeQInfo.setQuestionTitle(questionTitle);
-        String answerUrl = "[Java](" + parseAnswerPath(answerPath) + ")";
+        String answerUrl = "[" + answerPath.substring(answerPath.lastIndexOf(".")).toUpperCase()
+                + "](" + parseAnswerPath(answerPath) + ")";
         readmeQInfo.setDate(new SimpleDateFormat("yyyy-MM-dd").format(new Date()));
         readmeQInfo.setAnswerAddress(answerUrl);
 
@@ -109,7 +110,7 @@ public class LeetcodeReadmeInfoUtil {
      * @return 路径 leetcode/simple/sort/IntersectionOfTwoArrays.java
      */
     public static String parseAnswerPath(String answerPath) {
-        return repositoryUrl + answerPath.replace(".", "/") + ".java";
+        return repositoryUrl + answerPath.replace(".", "/") + (answerPath.contains("sql") ? ".sql" : ".java");
     }
 
     /**

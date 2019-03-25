@@ -12,8 +12,8 @@ public class LeetcodeGenerateReadme {
 
     public static void main(String[] args) {
 
-        String questionUrlName = "binary-tree-right-side-view";
-        String answerPath = "leetcode.mid.BinaryTreeRightSideView";
+        String questionUrlName = "second-highest-salary";
+        String answerPath = "leetcode.sql.second-highest-salary";
 
         String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
         String tableName = "LeetCode Solution Table";
