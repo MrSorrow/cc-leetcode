@@ -17,21 +17,25 @@ public class Main {
 
         if (line.length() > 2) {
             String[] strs = line.substring(1, line.length() - 1).split(",");
+            String[] strsCopy = new String[strs.length];
 
-            int index = 0;
-            StringBuilder sb = new StringBuilder("[");
-            while (strs.length - 1 - index >= k) {
+            int index = 0, add = 0;
+            while (strs.length - index >= k) {
                 for (int i = index + k - 1; i >= index; i--) {
-                    sb.append(strs[i]);
-                    if (i != strs.length - 1) sb.append(",");
+                    strsCopy[add++] = strs[i];
                 }
                 index += k;
             }
             if (index < strs.length) {
                 for (int i = index; i < strs.length; i++) {
-                    sb.append(strs[i]);
-                    if (i != strs.length - 1) sb.append(",");
+                    strsCopy[add++] = strs[i];
                 }
+            }
+
+            StringBuilder sb = new StringBuilder("[");
+            for (int i = 0; i < strsCopy.length; i++) {
+                sb.append(strsCopy[i]);
+                if (i < strsCopy.length - 1) sb.append(",");
             }
             sb.append("]");
             System.out.println(sb.toString());
