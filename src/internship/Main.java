@@ -2,12 +2,6 @@ package internship;
 
 import java.util.Scanner;
 
-/**
- * @description:
- * @author: guoping wang
- * @date: 2019/4/8 19:35
- * @project: cc-leetcode
- */
 public class Main {
 
     public static void main(String[] args) {
