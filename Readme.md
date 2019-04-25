@@ -351,4 +351,5 @@ String answerPath = "sword2offer.UniqueNumInArray";
 | 4    | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e/) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/SearchIn2DArray.java) | 2019-03-23 |
 | 5    | [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/ReplaceSpace.java) | 2019-03-25 |
 | 6    | [从尾到头打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/PrintListFromTailToHead.java) | 2019-03-25 |
+| 60    | [n个骰子的点数](http://www.cnblogs.com/xuanxufeng/p/6896569.html) | [Java](https://github.com/MrSorrow/cc-leetcode/blob/master/src/sword2offer/DiceProbability.java) | 2019-04-25 |
 
