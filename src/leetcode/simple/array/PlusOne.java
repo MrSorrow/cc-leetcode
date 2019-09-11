@@ -1,10 +1,8 @@
 package leetcode.simple.array;
 
-import java.math.BigInteger;
-
 /**
- * <a>https://leetcode-cn.com/problems/plus-one/description/</a>
- *
+ * 66. 加一
+ * <a>https://leetcode-cn.com/problems/plus-one/</a>
  * @author Kingdompin@163.com
  * @date 2018/8/2 下午5:42
  */
