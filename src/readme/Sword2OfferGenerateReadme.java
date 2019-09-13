@@ -13,12 +13,12 @@ import java.util.Date;
 public class Sword2OfferGenerateReadme {
 
     public static void main(String[] args) {
-        String questionId = "5";
-        String questionName = "替换空格";
-        String questionUrl = "https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423";
-        String answerPath = "sword2offer.ReplaceSpace";
+        String questionId = "7";
+        String questionName = "重建二叉树";
+        String questionUrl = "https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6";
+        String answerPath = "sword2offer.ReConstructBinaryTree";
 
-        String readmeFilePath = "E:\\eclipse\\cc-leetcode\\Readme.md";
+        String readmeFilePath = "Readme.md";
         String tableName = "剑指Offer Solution Table";
 
         Sword2OfferQInfo questionInfo = null;
